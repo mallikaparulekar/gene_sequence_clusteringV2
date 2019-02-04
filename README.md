@@ -7,8 +7,10 @@ Current methods primarily focus in scanning for existing architectures, or if fi
 My clustering method aims to cluster these sequences to be able to better understand the diversity in these genes.
 
 Index:
+
 crossValV2: The cross validation code that approximates the correct number of clusters for the sequences
 orderByCluster: Clusters the given data into the # of clusters given by crossVal2
+realRefinedGen: The code I use to generate my synthetic data (with varying alpha to vary noise and cluster distributions in data)
 
 Some datasets I am working with
 newFlyData: genetic sequences from the drusophila melanogaster genome that I am working with.(Data obtained from: 	Ni T.,  Corcoran D.L.,  Rach E.A.,  Song S.,  Spana E.P.,  Gao Y.,  Ohler U.,  Zhu J.. A paired-end sequencing strategy to map the complex landscape of transcription initiation, Nat. Methods , 2010, vol. 7 (pg. 521-527)
